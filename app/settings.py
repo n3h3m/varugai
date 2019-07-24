@@ -1,0 +1,12 @@
+SECRET_KEY = '_c-orrh0ky)pxdr5%&t!k$z@s%h0*nhh%_55&h!6%a$(ir&omh'
+ALLOWED_EXTENSIONS = ["jpg", "css", "font", "ico", "js", "html", ""]
+DEBUG = True
+ALLOWED_HOSTS = ['*']
+ROOT_URLCONF = 'app.urls'
+WSGI_APPLICATION = 'app.wsgi.application'
+TIME_ZONE = 'UTC'
+USE_TZ = True
+LANGUAGE_CODE = 'en-us'
+USE_I18N = False
+USE_L10N = False
+APPEND_SLASH = False
